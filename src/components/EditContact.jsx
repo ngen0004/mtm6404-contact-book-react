@@ -45,7 +45,7 @@ function EditContact() {
 
   return contact ? (
     <div className="container">
-        <Link to="/" className="back-link">Back to Contacts</Link>
+        <Link to="/" className="back-link">Contacts</Link>
       <h1>Edit Contact</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">

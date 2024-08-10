@@ -24,7 +24,7 @@ function ContactDetails() {
   return contact ? (
     <div className="container">
         <div className="add-button">
-            <Link to="/" className="back-link">Back to Contacts</Link>
+            <Link to="/" className="back-link">Contacts</Link>
             <Link to={`/edit/${id}`}><button className='cont'>Edit</button></Link>
         </div>        
         <div className="contact-details">
